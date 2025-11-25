@@ -34,9 +34,9 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/Algonive.png';
-import agcLogo from './assets/company_logo/nixona.png';
-import newtonschoolLogo from './assets/company_logo/Saiket_Systems.png';
+import newtonschoolLogo from './assets/company_logo/Algonive.png';
+import webverseLogo from './assets/company_logo/nixona.png';
+import agcLogo from './assets/company_logo/Saiket_Systems.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/bharti.png';
@@ -289,5 +289,6 @@ export const SkillsInfo = [
     image: removebgLogo,
     tags: ["React JS", "API", "Image Processing"],
     github: "https://github.com/codingmastr/Image-Background-Remover",
+    webapp: "https://removeyourbg.netlify.app/",
   },
 ];
