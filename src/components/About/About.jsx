@@ -28,6 +28,7 @@ const About = () => {
                 'Fullstack Developer',
                 'Mern Stack Developer',
                 'Java Developer',
+                'Software Developer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +42,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          Full Stack Developer skilled in the MERN stack and JavaScript ecosystem. 
-          Experienced in building responsive frontend interfaces, developing REST APIs, 
-          integrating MySQL and MongoDB databases, and working with real client projects. 
-          Strong understanding of data structures and algorithms in Java. Looking for opportunities 
-          to work on scalable applications and grow as a developer.
+               Full Stack Developer with hands-on experience building scalable MERN applications and real-time systems. 
+               Developed production-ready applications with REST APIs, authentication systems, and MongoDB/MySQL integration. 
+               Improved application performance by 25% through frontend optimization and efficient API design. 
+               Strong foundation in data structures and backend architecture.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1IDhuCPkONureDpe3dAjWgdGyE-sicT3o/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1O2CPl2E5vZ6eweZhtU3Jdj9-_dUnJZ1-/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
