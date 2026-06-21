@@ -217,7 +217,7 @@ description:
 "An AI-powered SaaS platform that generates websites from natural language prompts. Features AI integration, Firebase authentication, code editing, project management, and online deployment.",
 image: shivforgeLogo,
 tags: ["React.js", "Node.js", "MongoDB", "OpenRouter AI", "Firebase", "Razorpay"],
-github: "https://github.com/Shivampatil87",
+github: "https://github.com/Shivampatil87/shivforge-ai",
 webapp: "https://shivforge-ai.netlify.app",
 },
 
@@ -228,7 +228,7 @@ description:
 "A real-time chat and video communication platform built with WebRTC and Socket.IO featuring JWT authentication, chat history, and peer-to-peer video calling.",
 image: shivoxLogo,
 tags: ["React.js", "Node.js", "MongoDB", "Socket.IO", "WebRTC", "JWT"],
-github: "https://github.com/Shivampatil87",
+github: "https://github.com/Shivampatil87/Shivox",
 webapp: "https://shivoxxf.onrender.com/",
 },
 
