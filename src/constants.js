@@ -191,7 +191,7 @@ skills: [
     img: bsaLogo,
     school: "D. Patil Shinde Jr. College, Arni",
     date: "2020 – 2022",
-    grade: "74.19%",
+    grade: " 12th-- 74.19%",
     desc:
       "I completed my Higher Secondary Education (HSC) in the Science stream. My subjects included Physics, Chemistry, Mathematics, and Computer Science. This is where I started building interest in programming and problem solving.",
     degree: "Higher Secondary Certificate (HSC) – Science",
