@@ -35,7 +35,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import newtonschoolLogo from './assets/company_logo/Algonive.png';
-import webverseLogo from './assets/company_logo/nixona.png';
+import webverseLogo from './assets/company_logo/stop and think.png';
 import agcLogo from './assets/company_logo/Saiket_Systems.png';
 
 // Education Section Logo's
@@ -45,10 +45,10 @@ import vpsLogo from './assets/education_logo/scet.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/agriconncet.png';
-import csprepLogo from './assets/work_logo/amazon.png';
+import csprepLogo from './assets/work_logo/shivforageai.png';
 import movierecLogo from './assets/work_logo/food.png';
 import taskremLogo from './assets/work_logo/packetSniffer.png';
-import npmLogo from './assets/work_logo/spotify.png';
+import npmLogo from './assets/work_logo/shivox.png';
 import webverLogo from './assets/work_logo/storerating.png';
 import cmLogo from './assets/work_logo/wandelust.png';
 import imagesearchLogo from './assets/work_logo/shivmind.png';
@@ -112,58 +112,46 @@ export const SkillsInfo = [
   },
 ];
 
- export const experiences = [
-  {
-    id: 0,
-    img: webverseLogo,
-    role: "Front-End Developer Intern",
-    company: "Nixona Technologies",
-    date: "Sep 2025 - Nov 2025",
-    desc: "Built responsive React interfaces and improved UI consistency across multiple client projects.Improved page load speeds by about 25 percent through optimisation.Coordinated with designers to deliver clean and user-friendly web screens.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
-  },
-  {
-    id: 1,
-    img: agcLogo,
-    role: "Full Stack Development Intern",
-    company: "SaiKet Systems",
-    date: "Feb 2025 - Apr 2025",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "Node JS",
-      "Tailwind CSS",
-      "MongoDb",
-       "SQL",
-    ],
-  },
-  {
-    id: 2,
-    img: newtonschoolLogo,
-    role: "Java Programming Intern",
-    company: "Algonive",
-    date: "jun 2024 - Sep 2024",
-    desc: "Created a Java and MySQL based employee shift manager web application.Built a Java Swing desktop tool for file size, word count and character analysis, improving understanding of Java and database interactions.",
-    skills: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Bootstrap",
-      "Figma",
-      "Material UI",
-    ],
-  },
+export const experiences = [
+{
+id: 0,
+img: webverseLogo,
+role: "MERN Stack Developer Intern",
+company: "Stop and Think Infoconnect Pvt. Ltd.",
+date: "Nov 2025 - Apr 2026",
+desc: "Developed 15+ reusable React.js components using Redux Toolkit, improving UI consistency and reducing duplicate code across multiple modules. Integrated 20+ REST APIs for seamless frontend-backend communication and real-time data updates. Built CRUD-based backend modules using Express.js and MongoDB, participated in API testing with Postman, deployment on Render, and Agile sprint-based feature delivery.",
+skills: [
+"ReactJS",
+"Redux Toolkit",
+"JavaScript",
+"TypeScript",
+"Tailwind CSS",
+"Node.js",
+"Express.js",
+"MongoDB",
+"REST APIs",
+"Postman",
+"Git",
+],
+},
+{
+id: 1,
+img: agcLogo,
+role: "Java Programming Intern",
+company: "Algonive",
+date: "May 2025 - Jul 2025",
+desc: "Developed Java backend modules using JDBC and MySQL for structured data management and efficient database operations. Built text and PDF analysis utilities applying OOP principles and modular programming. Resolved backend exceptions and optimized file-processing workflows, improving application reliability and maintainability.",
+skills: [
+"Java",
+"JDBC",
+"MySQL",
+"OOP",
+"SQL",
+"Backend Development",
+"Debugging",
+"Git",
+],
+},
 ];
   
   export const education = [
@@ -173,8 +161,7 @@ export const SkillsInfo = [
     school: "Suryodaya College of Engineering and Technology, Nagpur",
     date: "2022 – 2026",
     grade: "6.81 CGPA",
-    desc:
-      "I am pursuing my Bachelor's degree in Computer Engineering at Suryodaya College of Engineering and Technology, Nagpur. My coursework includes Data Structures and Algorithms, Web Development, Database Management Systems, Operating Systems, and Object-Oriented Programming. During this period, I have also worked on multiple full stack projects and internships that strengthened my development skills.",
+    desc:"Graduated in Computer Engineering with hands-on experience in MERN stack development, AI-powered applications, and scalable web solutions.",
     degree: "Bachelor of Technology (B.Tech) in Computer Engineering",
   },
 
@@ -201,94 +188,98 @@ export const SkillsInfo = [
   },
 ];
 
-  
-  export const projects = [
-  {
-    id: 0,
-    title: "WanderLust – Vacation Booking Platform",
-    description:
-      "A full-stack vacation booking platform where users can browse, list and book stays. Includes secure authentication, listing management, booking flow and map features.",
-    image: cmLogo,
-    tags: ["Node.js", "Express", "MongoDB", "EJS", "Passport.js", "Mapbox"],
-    github: "https://github.com/Shivampatil87/WanderLust",
-    webapp: "https://wanderlust-travel-listings.onrender.com/listings"
-  },
-  {
-    id: 1,
-    title: "AgriConnect – Farmer to Retailer Marketplace",
-    description:
-      "A platform enabling farmers to sell directly to retailers. Supports authentication, product uploads, email notifications and smooth transaction flow.",
-    image: githubdetLogo,
-    tags: ["Node.js", "Express", "MongoDB", "Mongoose", "Passport.js"],
-    github: "https://github.com/Shivampatil87/Agri-Connect",
-  },
-  {
-    id: 2,
-    title: "Store Rating App",
-    description:
-      "A full-stack application for rating stores, giving feedback and viewing overall ratings. Includes authentication and review dashboard.",
-    image: webverLogo,
-    tags: ["React JS", "Node.js", "Express", "MySQL", "Tailwind CSS"],
-    github: "https://github.com/Shivampatil87/Store_Rating_App",
-  },
-  {
-    id: 3,
-    title: "ShivMind – AI Chat App",
-    description:
-      "An AI-powered chat application with thread management and a clean UI. Built using Node.js, MySQL and AI APIs.",
-    image: imagesearchLogo,
-    tags: ["React JS", "Node.js", "Express", "OpenAI API", "MySQL"],
-    github: "https://github.com/Shivampatil87/ShivMind",
-  },
-  {
-    id: 4,
-    title: "Food Management System",
-    description:
-      "A Java Swing + MySQL system for managing food inventory, daily usage, categories and stock tracking.",
-    image: movierecLogo,
-    tags: ["Java", "MySQL", "Swing", "JDBC"],
-    github: "https://github.com/Shivampatil87/Food_Management_System",
-  },
+export const projects = [
+{
+id: 0,
+title: "ShivForge AI – AI Website Builder",
+description:
+"An AI-powered SaaS platform that generates websites from natural language prompts. Features AI integration, Firebase authentication, code editing, project management, and online deployment.",
+image: shivforgeLogo,
+tags: ["React.js", "Node.js", "MongoDB", "OpenRouter AI", "Firebase", "Razorpay"],
+github: "https://github.com/Shivampatil87",
+webapp: "https://shivforge-ai.netlify.app",
+},
 
-  // ---------------------------
-  // NEW PROJECTS YOU REQUESTED
-  // ---------------------------
+{
+id: 1,
+title: "Shivox – Real-Time Chat & Video Platform",
+description:
+"A real-time chat and video communication platform built with WebRTC and Socket.IO featuring JWT authentication, chat history, and peer-to-peer video calling.",
+image: shivoxLogo,
+tags: ["React.js", "Node.js", "MongoDB", "Socket.IO", "WebRTC", "JWT"],
+github: "https://github.com/Shivampatil87",
+webapp: "https://shivoxxf.onrender.com/",
+},
 
-  {
-    id: 5,
-    title: "Amazon App Clone",
-    description:
-      "A functional Amazon-inspired e-commerce clone with product listings, cart system and responsive UI.",
-    image: csprepLogo,
-    tags: ["React JS", "CSS", "API"],
-    github: "https://github.com/Shivampatil87/amazon_clone_Project_withshivam",
-  },
-  {
-    id: 6,
-    title: "Packet Sniffer & Analyzer",
-    description:
-      "A packet sniffer tool that captures, analyzes and displays network packets for monitoring and debugging.",
-    image: taskremLogo,
-    tags: ["Python", "Networking", "Packet Capture"],
-    github: "https://drive.google.com/file/d/1aE-PYljoZuIPQYI7mX35k88Ox8QPOqmF/view?usp=sharing",
-  },
-  {
-    id: 7,
-    title: "Spotify App Clone",
-    description:
-      "A Spotify-style music streaming UI clone with playlists, player controls and clean animations.",
-    image: npmLogo,
-    tags: ["React JS", "CSS", "UI Clone"],
-    github: "",
-  },
-  {
-    id: 8,
-    title: "Remove BG – Background Remover",
-    description:
-      "A React.js app that removes background from images using API integration and returns transparent output.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-  },
+{
+id: 2,
+title: "WanderLust – Vacation Booking Platform",
+description:
+"A full-stack vacation booking platform with authentication, property listings, reviews, booking workflows, and interactive maps.",
+image: cmLogo,
+tags: ["Node.js", "Express.js", "MongoDB", "Passport.js", "Cloudinary", "Mapbox"],
+github: "https://github.com/Shivampatil87/WanderLust",
+webapp: "https://wanderlust-travel-listings.onrender.com/listings",
+},
+
+{
+id: 3,
+title: "ShivMind – AI Conversational Chat Application",
+description:
+"An AI-powered chat application with OpenAI integration, JWT authentication, persistent chat sessions, and scalable MongoDB storage.",
+image: imagesearchLogo,
+tags: ["React.js", "Node.js", "MongoDB", "OpenAI API", "JWT"],
+github: "https://github.com/Shivampatil87/ShivMind",
+},
+
+{
+id: 4,
+title: "Food Management System",
+description:
+"A Java Swing and MySQL application for managing food inventory, stock tracking, and daily usage records.",
+image: movierecLogo,
+tags: ["Java", "MySQL", "Swing", "JDBC"],
+github: "https://github.com/Shivampatil87/Food_Management_System",
+},
+
+{
+id: 5,
+title: "Packet Sniffer & Analyzer",
+description:
+"A Python-based network packet analyzer for capturing and inspecting TCP/IP traffic for monitoring and debugging.",
+image: taskremLogo,
+tags: ["Python", "Networking", "TCP/IP", "Packet Analysis"],
+github: "https://github.com/Shivampatil87",
+},
+
+{
+id: 6,
+title: "AgriConnect – Farmer to Retailer Marketplace",
+description:
+"A marketplace platform connecting farmers directly with retailers, enabling product listings, order management, and secure authentication.",
+image: githubdetLogo,
+tags: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Passport.js"],
+github: "https://github.com/Shivampatil87/Agri-Connect",
+},
+
+{
+id: 7,
+title: "Store Rating App",
+description:
+"A full-stack application allowing users to rate stores, provide feedback, and view overall ratings through a responsive dashboard.",
+image: webverLogo,
+tags: ["React.js", "Node.js", "Express.js", "MySQL", "Tailwind CSS"],
+github: "https://github.com/Shivampatil87/Store_Rating_App",
+},
+
+{
+id: 8,
+title: "Remove BG – Background Remover",
+description:
+"A web application that removes image backgrounds using API integration and delivers transparent output with a simple user interface.",
+image: removebgLogo,
+tags: ["React.js", "API Integration", "Image Processing"],
+github: "https://github.com/codingmastr/Image-Background-Remover",
+webapp: "https://removeyourbg.netlify.app/",
+},
 ];
