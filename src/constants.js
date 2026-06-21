@@ -35,7 +35,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import newtonschoolLogo from './assets/company_logo/Algonive.png';
-import webverseLogo from './assets/company_logo/stop and think.png';
+import webverseLogo from './assets/company_logo/stop_and_think.png';
 import agcLogo from './assets/company_logo/Saiket_Systems.png';
 
 // Education Section Logo's
@@ -45,10 +45,10 @@ import vpsLogo from './assets/education_logo/scet.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/agriconncet.png';
-import csprepLogo from './assets/work_logo/shivforageai.png';
+import shivforgeLogo from './assets/work_logo/shivforageai.png';
 import movierecLogo from './assets/work_logo/food.png';
 import taskremLogo from './assets/work_logo/packetSniffer.png';
-import npmLogo from './assets/work_logo/shivox.png';
+import shivoxLogo from './assets/work_logo/shivox.png';
 import webverLogo from './assets/work_logo/storerating.png';
 import cmLogo from './assets/work_logo/wandelust.png';
 import imagesearchLogo from './assets/work_logo/shivmind.png';
@@ -134,9 +134,30 @@ skills: [
 "Git",
 ],
 },
+
 {
 id: 1,
 img: agcLogo,
+role: "Full Stack Development Intern",
+company: "SaiKet Systems",
+date: "Sep 2025 - Oct 2025",
+desc: "Worked on full-stack web application development using React.js, Node.js, Express.js, and MongoDB. Developed responsive user interfaces, integrated REST APIs, implemented backend functionalities, and collaborated on debugging, testing, and deployment activities.",
+skills: [
+"ReactJS",
+"JavaScript",
+"Node.js",
+"Express.js",
+"MongoDB",
+"REST APIs",
+"HTML",
+"CSS",
+"Git",
+],
+},
+
+{
+id: 2,
+img: newtonschoolLogo,
 role: "Java Programming Intern",
 company: "Algonive",
 date: "May 2025 - Jul 2025",
