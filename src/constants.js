@@ -238,9 +238,9 @@ title: "WanderLust – Vacation Booking Platform",
 description:
 "A full-stack vacation booking platform with authentication, property listings, reviews, booking workflows, and interactive maps.",
 image: cmLogo,
-tags: ["Node.js", "Express.js", "MongoDB", "Passport.js", "Cloudinary", "Mapbox"],
+tags: ["Node.js", "Express.js", "MySQL", "Passport.js", "Cloudinary", "Mapbox"],
 github: "https://github.com/Shivampatil87/WanderLust",
-webapp: "https://wanderlust-travel-listings.onrender.com/listings",
+webapp: "https://wandelustbyshivam.onrender.com/listings",
 },
 
 {
