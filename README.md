@@ -3,7 +3,7 @@
 
 ## 🚀 Live Demo
 
-🔗 (https://shivam-portfolio-nu-beige.vercel.app/)
+🔗 https://shivam-portfolio-nu-beige.vercel.app/
 
 ## 🛠️ Tech Stack
 
